@@ -1,0 +1,18 @@
+sql = f"""
+CREATE TABLE IF NOT EXISTS {table_name} (
+	id INTEGER PRIMARY KEY,
+	exercise TEXT NOT NULL,
+	sets INTEGER NOT NULL,
+	pauses FLOAT NOT NULL,
+	first_set INTEGER,
+	weight_first_set FLOAT,
+	rpe_first_set FLOAT,
+	second_set INTEGER,
+	weight_second_set FLOAT,
+	rpe_second_set FLOAT,
+	third_set INTEGER, 
+	weight_third_set FLOAT,
+	rpe_third_set FLOAT,
+	notes TEXT,
+)
+"""

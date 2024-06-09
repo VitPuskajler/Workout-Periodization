@@ -1,0 +1,2 @@
+Query SQL data and Create HTML tables using it | Flask, Python :
+https://www.youtube.com/watch?v=uZqO_PoLDi8&ab_channel=WayScript
